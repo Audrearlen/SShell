@@ -5,7 +5,7 @@ a=$n1
 fact=1
 while [ $n1 -gt 0 ]
 do
-        fact=`expr $fact \* $n1`
-        n1=`expr $n1 - 1`
+fact=`expr $fact \* $n1`
+n1=`expr $n1 - 1`
 done
 echo The factorial of $a is $fact
